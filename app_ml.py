@@ -19,7 +19,7 @@ y = data['Churn']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Train a classifier for churn prediction
-@st.cache_data(hash_funcs={RandomForestClassifier: id})
+@st.cache(allow_output_mutation=True)
 def train_classifier():
     churn_clf = RandomForestClassifier()
     churn_clf.fit(X_train, y_train)
@@ -36,7 +36,7 @@ product_info = {
 }
 
 # Function to recommend categories based on churn prediction and product information
-@st.cache_data(hash_funcs={random.Random: id})
+@st.cache
 def recommend_category(churn, product_info, abandoned_category):
     if churn == 1:  # If churn is predicted
         # Recommend similar category
@@ -62,9 +62,12 @@ abandoned_category = st.selectbox("Select the abandoned category", list(product_
 
 # Button to trigger recommendation
 if st.button("Get Recommendation"):
-    # Get recommendation based on churn prediction
-    recommendation, recommended_products = recommend_category(churn_input, product_info, abandoned_category)
-    st.write("Recommendation:", recommendation)
-    st.write("Some products from the recommended category:")
-    for product in recommended_products:
-        st.write("-", product)
+    try:
+        # Get recommendation based on churn prediction
+        recommendation, recommended_products = recommend_category(churn_input, product_info, abandoned_category)
+        st.write("Recommendation:", recommendation)
+        st.write("Some products from the recommended category:")
+        for product in recommended_products:
+            st.write("-", product)
+    except Exception as e:
+        st.error("An error occurred: {}".format(str(e)))
