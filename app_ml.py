@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-import random  # Importa el módulo random
+import random
 
 # Load dataset
 file_path = "data/dataset_transformado.parquet"
@@ -19,8 +19,13 @@ y = data['Churn']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Train a classifier for churn prediction
-churn_clf = RandomForestClassifier()
-churn_clf.fit(X_train, y_train)
+@st.cache_data(hash_funcs={RandomForestClassifier: id})
+def train_classifier():
+    churn_clf = RandomForestClassifier()
+    churn_clf.fit(X_train, y_train)
+    return churn_clf
+
+churn_clf = train_classifier()
 
 # Product information dictionary
 product_info = {
@@ -31,6 +36,7 @@ product_info = {
 }
 
 # Function to recommend categories based on churn prediction and product information
+@st.cache_data(hash_funcs={random.Random: id})
 def recommend_category(churn, product_info, abandoned_category):
     if churn == 1:  # If churn is predicted
         # Recommend similar category
@@ -46,7 +52,7 @@ def recommend_category(churn, product_info, abandoned_category):
 
 # Streamlit UI
 st.title("Category Recommendation System")
-st.image("data/Red Modern Market Logo (1).png", use_column_width=True)  # Reemplaza "your_image_path.jpg" con la ruta a tu imagen
+st.image("data/Red Modern Market Logo (1).png", use_column_width=True)
 
 # Input field for churn prediction
 churn_input = st.number_input("Enter churn prediction (1 for churn, 0 for no churn)", min_value=0, max_value=1, value=0, step=1)
