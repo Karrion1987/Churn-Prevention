@@ -19,8 +19,6 @@ Nuestro proyecto se centra en el análisis de los carritos de compra abandonados
 
 [![Ver Aplicación](https://img.shields.io/badge/Ver%20Aplicaci%C3%B3n-Visitar-brightgreen?style=for-the-badge)](https://carrifour.mydurable.com/es?pt=NjYyN2ZhYzQ1ZmY3ODk4ODFjOTI3YjM1OjE3MTQwMjU5NzQuMTc6cHJldmlldw==)
 
-## Arquitectura del Proyecto
-
 ## Ejecución del Proyecto 🚀
 1. Clona este repositorio:
    ```
@@ -38,7 +36,8 @@ Puedes acceder al dashboard de análisis de carrito abandonado en Power BI hacie
 
 [![Dashboard Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?style=for-the-badge&logo=power-bi&logoColor=white)](s14-25-t-data-bi/Dashboard/ANALISIS%20DE%20CARRITO%20ABANDONADO.pbix)
 
-##Arquitectura
+
+## Arquitectura del Proyecto
 
 ![Imagen de WhatsApp 2024-04-25 a las 13 35 38_23646e87](https://github.com/No-Country/s14-25-t-data-bi/assets/138166529/29a0d154-4206-4199-bf75-e111601680f6)
 
