@@ -38,7 +38,7 @@ Puedes acceder al dashboard de análisis de carrito abandonado en Power BI hacie
 
 [![Dashboard Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?style=for-the-badge&logo=power-bi&logoColor=white)](s14-25-t-data-bi/Dashboard/ANALISIS%20DE%20CARRITO%20ABANDONADO.pbix)
 
-<img src="https://github.com/No-Country/s14-25-t-data-bi/blob/main/assets/21247165/78f20235-11d3-494c-af9a-4cf04e659fca.png" alt="Arquitectura del Proyecto">
+##Arquitectura
 
-```
+![Imagen de WhatsApp 2024-04-25 a las 13 35 38_23646e87](https://github.com/No-Country/s14-25-t-data-bi/assets/138166529/29a0d154-4206-4199-bf75-e111601680f6)
 
