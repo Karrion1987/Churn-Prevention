@@ -1,4 +1,4 @@
-# S14-25-T-DATA-BI
+
 
 # Proyecto Carrifour: Análisis de Carritos de Compra Abandonados 🛒🔍
 
