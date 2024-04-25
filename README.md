@@ -41,8 +41,7 @@ Puedes acceder al dashboard de análisis de carrito abandonado en Power BI hacie
 ¡Y eso es todo! Ahora puedes explorar y aprovechar el análisis de carritos de compra abandonados para mejorar la experiencia de compra en Carrifour.
 
 ---
-
-![arquitectura_carrito](https://github.com/No-Country/s14-25-t-data-bi/assets/21247165/78f20235-11d3-494c-af9a-4cf04e659fca)
+![Arquitectura del Proyecto](https://github.com/No-Country/s14-25-t-data-bi/blob/main/assets/21247165/78f20235-11d3-494c-af9a-4cf04e659fca.png)
 
 ¡Gracias por ser parte de este emocionante proyecto!
 
