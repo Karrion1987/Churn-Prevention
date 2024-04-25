@@ -30,7 +30,12 @@ Nuestro proyecto se centra en el análisis de los carritos de compra abandonados
    ```
 3. Ejecuta el dashboard:
    ```
-   python dashboard.py
+   ## Acceso al Dashboard en Power BI
+
+Puedes acceder al dashboard de análisis de carrito abandonado en Power BI haciendo clic en el botón a continuación:
+
+[![Dashboard Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?style=for-the-badge&logo=power-bi&logoColor=white)](s14-25-t-data-bi/Dashboard/ANALISIS%20DE%20CARRITO%20ABANDONADO.pbix)
+
    ```
 
 ¡Y eso es todo! Ahora puedes explorar y aprovechar el análisis de carritos de compra abandonados para mejorar la experiencia de compra en Carrifour.
