@@ -17,6 +17,8 @@ Nuestro proyecto se centra en el análisis de los carritos de compra abandonados
 - **Reducción del Churn**: Nuestro objetivo es reducir anualmente la tasa de pérdida de clientes en un 10%. En el año 2022, superamos esta meta con una reducción del 11.11%, demostrando nuestro compromiso con la satisfacción del cliente.
 - **Optimización de Precios**: Buscamos reducir los precios de los productos en un 5% anualmente. En los años 2021 y 2023, alcanzamos con éxito esta meta, aunque identificamos la electrónica como una categoría de productos que requiere un enfoque específico para alcanzar el objetivo anual.
 
+[![Ver Aplicación](https://img.shields.io/badge/Ver%20Aplicaci%C3%B3n-Visitar-brightgreen?style=for-the-badge)](https://carrifour.mydurable.com/es?pt=NjYyN2ZhYzQ1ZmY3ODk4ODFjOTI3YjM1OjE3MTQwMjU5NzQuMTc6cHJldmlldw==)
+
 ## Arquitectura del Proyecto
 
 ## Ejecución del Proyecto 🚀
