@@ -1,11 +1,9 @@
 # S14-25-T-DATA-BI
-Claro, aquí está la versión actualizada con la imagen de la arquitectura del proyecto:
-
----
 
 # Proyecto Carrifour: Análisis de Carritos de Compra Abandonados 🛒🔍
 
-![Shopping Cart](https://image.flaticon.com/icons/png/512/1239/1239529.png)
+![Red Modern Market Logo (1)](https://github.com/No-Country/s14-25-t-data-bi/assets/138166529/d9198988-8ff9-4edc-8448-b3a73d94f259)
+
 
 Este proyecto tiene como objetivo analizar los carritos de compra abandonados en Carrifour y mejorar la retención de clientes mediante recomendaciones de productos personalizadas. Utiliza un dashboard interactivo para visualizar datos y tomar decisiones informadas.
 
@@ -20,7 +18,6 @@ Nuestro proyecto se centra en el análisis de los carritos de compra abandonados
 - **Optimización de Precios**: Buscamos reducir los precios de los productos en un 5% anualmente. En los años 2021 y 2023, alcanzamos con éxito esta meta, aunque identificamos la electrónica como una categoría de productos que requiere un enfoque específico para alcanzar el objetivo anual.
 
 ## Arquitectura del Proyecto
-![Arquitectura del Proyecto](https://github.com/No-Country/s14-25-t-data-bi/blob/main/assets/21247165/78f20235-11d3-494c-af9a-4cf04e659fca.png)
 
 ## Ejecución del Proyecto 🚀
 1. Clona este repositorio:
@@ -40,7 +37,6 @@ Nuestro proyecto se centra en el análisis de los carritos de compra abandonados
 
 ---
 
-¡Espero que esta versión del README sea útil para tu proyecto! Si necesitas más ayuda o ajustes, ¡no dudes en pedirlos!
 ![arquitectura_carrito](https://github.com/No-Country/s14-25-t-data-bi/assets/21247165/78f20235-11d3-494c-af9a-4cf04e659fca)
 
 ¡Gracias por ser parte de este emocionante proyecto!
