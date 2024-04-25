@@ -12,12 +12,8 @@ Optimización de Precios: Buscamos reducir los precios de los productos en un 5%
 Cómo Contribuir:
 ¡Nos encantaría contar con tu colaboración! Si tienes habilidades en análisis de datos, desarrollo web o experiencia en comercio electrónico, ¡únete a nuestro equipo! Juntos, podemos llevar la experiencia de compra en Carrifour al siguiente nivel.
 
-
 ### Arquitectura del proyecto
-¡Claro! Aquí tienes una versión del README para tu proyecto de análisis de carritos de compra abandonados con recomendador de productos:
-
 ---
-
 # Proyecto Carrifour: Análisis de Carritos de Compra Abandonados 🛒🔍
 
 ![Shopping Cart](https://image.flaticon.com/icons/png/512/1239/1239529.png)
@@ -43,7 +39,7 @@ Este proyecto tiene como objetivo analizar los carritos de compra abandonados en
 1. Clona este repositorio:
 
    ```
-   git clone https://github.com/tu_usuario/proyecto-carrifour-analisis-carritos.git
+   git clone https://github.com/No-Country/s14-25-t-data-bi.git
    ```
 
 2. Instala las dependencias:
@@ -59,6 +55,11 @@ Este proyecto tiene como objetivo analizar los carritos de compra abandonados en
    ```
 
 ¡Y eso es todo! Ahora puedes explorar y aprovechar el análisis de carritos de compra abandonados para mejorar la experiencia de compra en Carrifour.
+
+---
+
+¡Espero que esta versión del README sea útil para tu proyecto! Si necesitas más ayuda o ajustes, ¡no dudes en pedirlos!
+
 
 ---
 
