@@ -2,7 +2,7 @@
 
 # Proyecto Carrifour: Análisis de Carritos de Compra Abandonados 🛒🔍
 
-![Red Modern Market Logo (1)](https://github.com/No-Country/s14-25-t-data-bi/assets/138166529/d9198988-8ff9-4edc-8448-b3a73d94f259)
+              ![Red Modern Market Logo (1)](https://github.com/No-Country/s14-25-t-data-bi/assets/138166529/d9198988-8ff9-4edc-8448-b3a73d94f259)
 
 
 Este proyecto tiene como objetivo analizar los carritos de compra abandonados en Carrifour y mejorar la retención de clientes mediante recomendaciones de productos personalizadas. Utiliza un dashboard interactivo para visualizar datos y tomar decisiones informadas.
